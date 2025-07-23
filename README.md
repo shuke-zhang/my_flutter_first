@@ -57,3 +57,17 @@ diagnose potential issues. You may also try increasing the time to wait for
 connected devices with the "--device-timeout" flag. Visit https://flutter.dev/setup/
 for troubleshooting tips.
 ```
+
+### 添加router
+1. 终端输入命令行直接安装 `flutter pub add go_router`
+
+
+
+### 添加http
+1. 终端输入命令行直接安装 `flutter pub add http`
+
+### 打包成android
+1. `flutter build apk --release`
+
+### 视频播放
+1. `flutter pub add video_player`

@@ -8,8 +8,8 @@ plugins {
 android {
     namespace = "com.example.my_flutter_first"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
-
+    // ndkVersion = flutter.ndkVersion
+    ndkVersion = "27.0.12077973" // 直接显示控制解决video_player的报错
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
