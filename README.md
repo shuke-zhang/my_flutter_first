@@ -71,3 +71,8 @@ for troubleshooting tips.
 
 ### 视频播放
 1. `flutter pub add video_player`
+2. 
+### 添加静态资源
+1. 文件放入项目根目录的 assets 中
+2. 在pubspec.yaml中assets进行声明配置 ， 表示这些内容将一起打包进app中
+3. 重新运行命令 `flutter clean ` `flutter pub get` 即可使用静态资源

@@ -15,11 +15,12 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
   @override
   void initState() {
     super.initState();
-    _controller = VideoPlayerController.networkUrl(
-        Uri.parse(
-          'https://shuke-zhang.oss-cn-chengdu.aliyuncs.com/kezai/video/screensaver-1.mp4',
-        ),
-      )
+    // _controller = VideoPlayerController.networkUrl(
+    //     Uri.parse(
+    //       'https://shuke-zhang.oss-cn-chengdu.aliyuncs.com/kezai/video/screensaver-1.mp4',
+    //     ),
+    //   )
+    _controller = VideoPlayerController.asset('assets//video/ai-chat-2.mp4')
       ..initialize().then((_) {
         setState(() {});
         _controller.setLooping(true);
