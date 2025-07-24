@@ -20,7 +20,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
     //       'https://shuke-zhang.oss-cn-chengdu.aliyuncs.com/kezai/video/screensaver-1.mp4',
     //     ),
     //   )
-    _controller = VideoPlayerController.asset('assets//video/ai-chat-2.mp4')
+    _controller = VideoPlayerController.asset('assets/video/ai-chat-2.mp4')
       ..initialize().then((_) {
         setState(() {});
         _controller.setLooping(true);
